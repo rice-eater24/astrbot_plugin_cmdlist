@@ -1,0 +1,20 @@
+name: astrbot_plugin_cmdlist
+display_name: 指令查询
+short_desc: 一条指令列出所有插件注册的命令
+desc: |
+  用 /查询指令 把 AstrBot 里所有已加载插件注册的命令列出来，按插件分组，纯文本输出。
+
+  - 优先调用 AstrBot 内置的 command_management.list_commands()
+  - 旧版本退化为扫描 handler 注册表
+  - 显示命令名、别名、说明、权限、是否被关闭
+
+  指令：/查询指令
+version: 1.0.0
+author: rice-eater24
+repo: https://github.com/rice-eater24/astrbot_plugin_cmdlist
+astrbot_version: ">=4.9.2"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - telegram
+  - discord

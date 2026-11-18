@@ -1,0 +1,8 @@
+{
+  "show_reserved": {
+    "description": "包含 AstrBot 内置指令",
+    "type": "bool",
+    "default": false,
+    "hint": "开启后会一并列出 /help、/reset 等系统自带命令"
+  }
+}
